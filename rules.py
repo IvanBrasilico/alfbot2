@@ -6,7 +6,7 @@ import os
 import botteryext.bdicttalk.localizations
 
 URL_APP = 'http://localhost:5000'
-URL = 'http://localhost:5000'
+URL = 'http://brasilico.pythonanywhere.com/'
 
 if os.path.exists('rules.json'):
     with open('rules.json', 'r') as json_config:
